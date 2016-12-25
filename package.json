@@ -1,0 +1,31 @@
+{
+  "name": "uglify-inplace",
+  "version": "1.0.0",
+  "description": "runs uglify on the input file and replaces it with the compressed version",
+  "main": "bin/uglify-inplace",
+  "dependencies": {
+    "uglify-js": "^2.7.5"
+  },
+  "devDependencies": {},
+  "bin": {
+    "uglify-inplace": "./bin/uglify-inplace"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkovacs/uglify-inplace.git"
+  },
+  "keywords": [
+    "lsc",
+    "livescript",
+    "hashbang"
+  ],
+  "author": "Geza Kovacs (http://github.com/gkovacs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkovacs/uglify-inplace/issues"
+  },
+  "homepage": "https://github.com/gkovacs/uglify-inplace"
+}
