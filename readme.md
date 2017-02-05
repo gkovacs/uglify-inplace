@@ -1,6 +1,6 @@
 # uglify-inplace
 
-Supply a list of files and they will be uglified in-place
+Supply a list of files and they will be uglified in-place. This uses uglify - if you have ES6 code, use [babili-inplace](https://github.com/gkovacs/babili-inplace) instead.
 
 ## Install
 
